@@ -1,23 +1,20 @@
  package com.example.tcpclient;
 
-import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
 import android.widget.EditText;
 import android.widget.Toast;
 
  public class SetActivity extends AppCompatActivity {
     EditText editTextIPPort;
-    Context context;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_set);
-        context = this;
-        editTextIPPort = (EditText) findViewById(R.id.editTextIPPort);
 
+        editTextIPPort = (EditText) findViewById(R.id.editTextIPPort);
 
     }
 
